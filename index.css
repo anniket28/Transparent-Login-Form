@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Stick No Bills', sans-serif;
+}
+body{
+    background:url("bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    width: 50%;
+}
+.container h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.container i{
+    color: white;
+    padding: 13px 10px;
+    margin-left: 150px;
+}
+.container input{
+    width: 45%;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 0px 5px;
+    border-radius: 10px;
+    background: none;
+    border-bottom: 1px solid lightgreen;
+    margin-bottom: 20px;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.container .btn{
+    font-size: 23px;
+    padding: 3px;
+    display: block;
+    margin-left: 250px;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    width: 30%;
+    outline: none;
+    margin-top: 13px;
+    /* text-align: center; */
+    /* margin: auto; */
+    /* border: none; */
+}
+.container .btn:hover{
+    cursor: pointer;
+    color: lightgreen;
+    background-color: purple;
+}
